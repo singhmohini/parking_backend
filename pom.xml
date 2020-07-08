@@ -11,13 +11,20 @@
 	</parent>
 	<groupId>com.hcl</groupId>
 	<artifactId>parking</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4</version>
 	<name>parking</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
+	
+		<scm>
+		   <connection>scm:https://github.com/singhmohini/parking.git</connection>
+		   <url>https://github.com/singhmohini/parking.git</url>
+		   <developerConnection>scm:git:https://github.com/singhmohini/parking.git</developerConnection>
+		   <tag>HEAD</tag>
+		</scm>
 
 	<dependencies>
 		<dependency>
